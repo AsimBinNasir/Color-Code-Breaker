@@ -10,17 +10,19 @@
   <div class="container">
     <h1>Color Code Breaker</h1>
 
-    <div class="color-options">
-      <h2>Pick Your Colors</h2>
-      <div class="colors" id="color-palette">
-        <button class="color" data-color="red" style="background-color: red;"></button>
-        <button class="color" data-color="blue" style="background-color: blue;"></button>
-        <button class="color" data-color="green" style="background-color: green;"></button>
-        <button class="color" data-color="yellow" style="background-color: yellow;"></button>
-        <button class="color" data-color="purple" style="background-color: purple;"></button>
+    <!-- Unknown color code at the top -->
+    <div class="secret-code">
+      <h2>Guess the Hidden Colors</h2>
+      <div class="slots">
+        <div class="slot secret"></div>
+        <div class="slot secret"></div>
+        <div class="slot secret"></div>
+        <div class="slot secret"></div>
+        <div class="slot secret"></div>
       </div>
     </div>
 
+    <!-- Guessing area -->
     <div id="guess-board">
       <h2>Your Guesses</h2>
 
@@ -73,6 +75,20 @@
           <div class="slot empty"></div>
           <div class="slot empty"></div>
         </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    <div class="color-options">
+      <h2>Pick Your Colors</h2>
+      <div class="colors" id="color-palette">
+        <button class="color" data-color="red" style="background-color: red;"></button>
+        <button class="color" data-color="blue" style="background-color: blue;"></button>
+        <button class="color" data-color="green" style="background-color: green;"></button>
+        <button class="color" data-color="yellow" style="background-color: yellow;"></button>
+        <button class="color" data-color="purple" style="background-color: purple;"></button>
+        <button class="color" data-color="orange" style="background-color: orange;"></button>
+        <button class="color" data-color="cyan" style="background-color: cyan;"></button>
       </div>
     </div>
 
