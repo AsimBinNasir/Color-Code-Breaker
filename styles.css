@@ -77,21 +77,6 @@
     border-style: solid;
   }
   
-  button.submit-guess {
-    padding: 10px 15px;
-    font-size: 14px;
-    border: none;
-    background-color: #0077cc;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  button.submit-guess:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-  
   #feedback {
     margin-top: 20px;
     font-weight: bold;
