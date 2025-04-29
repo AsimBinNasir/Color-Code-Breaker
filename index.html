@@ -9,8 +9,6 @@
 <body>
   <div class="container">
     <h1>Color Code Breaker</h1>
-    
-    <div id="guess-board"></div>
 
     <div class="color-options">
       <h2>Pick Your Colors</h2>
@@ -23,16 +21,63 @@
       </div>
     </div>
 
-    <div class="player-guess">
-      <h2>Your Guess</h2>
-      <div class="guess-slots" id="current-guess">
-        <div class="slot empty"></div>
-        <div class="slot empty"></div>
-        <div class="slot empty"></div>
-        <div class="slot empty"></div>
-        <div class="slot empty"></div>
+    <div id="guess-board">
+      <h2>Your Guesses</h2>
+      <!-- 5 guess rows -->
+      <div class="guess-row" data-row="1">
+        <div class="slots">
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+        </div>
+        <button class="submit-guess" disabled>Submit</button>
       </div>
-      <button id="submit-guess" disabled>Submit Guess</button>
+
+      <div class="guess-row" data-row="2">
+        <div class="slots">
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+        </div>
+        <button class="submit-guess" disabled>Submit</button>
+      </div>
+
+      <div class="guess-row" data-row="3">
+        <div class="slots">
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+        </div>
+        <button class="submit-guess" disabled>Submit</button>
+      </div>
+
+      <div class="guess-row" data-row="4">
+        <div class="slots">
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+        </div>
+        <button class="submit-guess" disabled>Submit</button>
+      </div>
+
+      <div class="guess-row" data-row="5">
+        <div class="slots">
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+          <div class="slot empty"></div>
+        </div>
+        <button class="submit-guess" disabled>Submit</button>
+      </div>
     </div>
 
     <div id="feedback"></div>
